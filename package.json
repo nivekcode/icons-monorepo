@@ -7,7 +7,7 @@
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2015 browser module main",
     "start": "nx serve",
     "build": "nx build",
-    "generate-origami-icons": "svg-to-ts-constants --config ./libs/origami-icons/.svg-to-tsrc",
+    "generate-isometric-icons": "svg-to-ts-constants --config ./libs/isometric-icons/.svg-to-ts.json",
     "test": "nx test"
   },
   "private": true,
