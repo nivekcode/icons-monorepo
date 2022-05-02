@@ -1,13 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {
+  isometricIconsBanana,
+  isometricIconsDonut,
+  isometricIconsOnion,
+  IsoMetricIconsModule,
+  IsometricIconsRegistry,
+} from '@origami/isometric-icons';
 
 import { AppComponent } from './app.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule],
-  providers: [],
+  declarations: [AppComponent],
+  imports: [BrowserModule, IsoMetricIconsModule],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor(private iconRegistry: IsometricIconsRegistry) {
+    iconRegistry.registerIcons([
+      isometricIconsOnion,
+      isometricIconsBanana,
+      isometricIconsDonut,
+    ]);
+  }
+}

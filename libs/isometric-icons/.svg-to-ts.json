@@ -2,7 +2,10 @@
   "verbose": true,
   "srcFiles": ["./libs/isometric-icons/src/icons/*.svg"],
   "outputDirectory": "./libs/isometric-icons/src/lib",
-  "prefix": "origamiIcon",
+  "fileName": "isometric-icons",
+  "interfaceName": "IsometricIcon",
+  "typeName": "isometricIcon",
+  "prefix": "isometricIcons",
   "exportCompleteIconSet": true,
   "svgoConfig": {
     "plugins": ["cleanupAttrs"]

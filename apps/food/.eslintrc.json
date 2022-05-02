@@ -16,14 +16,6 @@
             "prefix": "origami",
             "style": "camelCase"
           }
-        ],
-        "@angular-eslint/component-selector": [
-          "error",
-          {
-            "type": "element",
-            "prefix": "origami",
-            "style": "kebab-case"
-          }
         ]
       }
     },
