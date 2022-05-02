@@ -7,6 +7,7 @@
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2015 browser module main",
     "start": "nx serve",
     "build": "nx build",
+    "analyze": "nx build --stats-json && webpack-bundle-analyzer dist/apps/food/stats.json",
     "generate-isometric-icons": "svg-to-ts-constants --config ./libs/isometric-icons/.svg-to-ts.json",
     "test": "nx test"
   },
@@ -53,6 +54,7 @@
     "prettier": "^2.5.1",
     "svg-to-ts": "^8.6.1",
     "ts-jest": "27.0.5",
-    "typescript": "~4.6.2"
+    "typescript": "~4.6.2",
+    "webpack-bundle-analyzer": "^4.5.0"
   }
 }
