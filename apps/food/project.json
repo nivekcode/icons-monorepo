@@ -1,21 +1,21 @@
 {
   "projectType": "application",
-  "root": "apps/animals",
-  "sourceRoot": "apps/animals/src",
+  "root": "apps/food",
+  "sourceRoot": "apps/food/src",
   "prefix": "origami",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/animals",
-        "index": "apps/animals/src/index.html",
-        "main": "apps/animals/src/main.ts",
-        "polyfills": "apps/animals/src/polyfills.ts",
-        "tsConfig": "apps/animals/tsconfig.app.json",
+        "outputPath": "dist/apps/food",
+        "index": "apps/food/src/index.html",
+        "main": "apps/food/src/main.ts",
+        "polyfills": "apps/food/src/polyfills.ts",
+        "tsConfig": "apps/food/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/animals/src/favicon.ico", "apps/animals/src/assets"],
-        "styles": ["apps/animals/src/styles.scss"],
+        "assets": ["apps/food/src/favicon.ico", "apps/food/src/assets"],
+        "styles": ["apps/food/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -34,8 +34,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "apps/animals/src/environments/environment.ts",
-              "with": "apps/animals/src/environments/environment.prod.ts"
+              "replace": "apps/food/src/environments/environment.ts",
+              "with": "apps/food/src/environments/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
@@ -55,10 +55,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "animals:build:production"
+          "browserTarget": "food:build:production"
         },
         "development": {
-          "browserTarget": "animals:build:development"
+          "browserTarget": "food:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -66,23 +66,20 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "animals:build"
+        "browserTarget": "food:build"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "apps/animals/src/**/*.ts",
-          "apps/animals/src/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/food/src/**/*.ts", "apps/food/src/**/*.html"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/animals"],
+      "outputs": ["coverage/apps/food"],
       "options": {
-        "jestConfig": "apps/animals/jest.config.js",
+        "jestConfig": "apps/food/jest.config.js",
         "passWithNoTests": true
       }
     }

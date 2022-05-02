@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'animals',
+  displayName: 'isometric-icons',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/apps/animals',
+  coverageDirectory: '../../coverage/libs/isometric-icons',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
