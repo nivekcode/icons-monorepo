@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "origami",
+            "prefix": "icons-monorepo",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "origami",
+            "prefix": "icons-monorepo",
             "style": "kebab-case"
           }
         ]

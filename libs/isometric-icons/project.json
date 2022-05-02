@@ -2,7 +2,7 @@
   "projectType": "library",
   "root": "libs/isometric-icons",
   "sourceRoot": "libs/isometric-icons/src",
-  "prefix": "origami",
+  "prefix": "icons-monorepo",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",

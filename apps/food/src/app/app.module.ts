@@ -6,7 +6,7 @@ import {
   isometricIconsOnion,
   IsoMetricIconsModule,
   IsometricIconsRegistry,
-} from '@origami/isometric-icons';
+} from '@icons-monorepo/isometric-icons';
 
 import { AppComponent } from './app.component';
 

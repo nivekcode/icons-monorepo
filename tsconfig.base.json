@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@origami/isometric-icons": ["libs/isometric-icons/src/index.ts"]
+      "@icons-monorepo/isometric-icons": ["libs/isometric-icons/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

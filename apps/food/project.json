@@ -2,7 +2,7 @@
   "projectType": "application",
   "root": "apps/food",
   "sourceRoot": "apps/food/src",
-  "prefix": "origami",
+  "prefix": "icons-monorepo",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
