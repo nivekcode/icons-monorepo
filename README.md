@@ -39,7 +39,7 @@ For further information I recommend you to checkout my blogposts and tutorials o
 
 ### Blog post
 
-[Hwo to build your own tree-shakable svg-icons-library in less than 30 minutes](https://kevinkreuzer.medium.com/how-to-build-your-own-tree-shakable-svg-icons-library-in-less-than-30-minutes-9f7a4a324d29) guides you through the process of building your own icon library with svg-to-ts.
+[How to build your own tree-shakable svg-icons-library in less than 30 minutes](https://kevinkreuzer.medium.com/how-to-build-your-own-tree-shakable-svg-icons-library-in-less-than-30-minutes-9f7a4a324d29) guides you through the process of building your own icon library with svg-to-ts.
 
 ### Video tutorial
 
