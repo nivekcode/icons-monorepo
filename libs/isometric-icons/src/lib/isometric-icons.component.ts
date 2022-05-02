@@ -9,7 +9,7 @@ import {
 } from '@angular/core';
 
 import { isometricIcon } from './isometric-icons';
-import { IsometricIconsRegistry } from './isometric-icons.service';
+import { IsometricIconsRegistry } from './isometric-icons-registry.service';
 
 @Component({
   selector: 'isometric-icon',
