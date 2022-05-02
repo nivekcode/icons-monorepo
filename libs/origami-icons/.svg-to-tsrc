@@ -1,0 +1,15 @@
+{
+  "svg-to-ts": {
+    "srcFiles": [
+      "./icons/*.svg"
+    ],
+    "outputDirectory": "./lib",
+    "prefix": "origamiIcon",
+    "exportCompleteIconSet": true,
+    "svgoConfig": {
+      "plugins": [
+        "cleanupAttrs"
+      ]
+    }
+  }
+}

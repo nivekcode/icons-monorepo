@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/origami-icons",
+  "sourceRoot": "libs/origami-icons/src",
+  "prefix": "origami",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/origami-icons"],
+      "options": {
+        "jestConfig": "libs/origami-icons/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/origami-icons/src/**/*.ts",
+          "libs/origami-icons/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
